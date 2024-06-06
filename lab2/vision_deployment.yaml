@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vision
+  labels:
+    app: vision
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app: vision
+  template:
+    metadata:
+      labels:
+        app: vision
+    spec:
+      containers:
+      - name: vision
+        image: nam2904/react-blog-jenkins:latest
+        ports:
+        - containerPort: 80
