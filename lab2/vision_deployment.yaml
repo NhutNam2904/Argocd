@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: vision
+  name: vision_deployment
   labels:
     app: vision
 spec:
