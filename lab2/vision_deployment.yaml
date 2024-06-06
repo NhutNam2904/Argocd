@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: vision
-        image: nam2904/react-blog-jenkins:latest
+        image: nam2904/react-blog-jenkins:4
         ports:
         - containerPort: 80
