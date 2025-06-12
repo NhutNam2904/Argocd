@@ -8,7 +8,7 @@ spec:
     namespace: app2
     server: 'https://kubernetes.default.svc'
   source:
-    repoURL: 'https://github.com/NhutNam2904/test-argocd'
+    repoURL: 'https://github.com/NhutNam2904/argocd'
     path: lab2
     targetRevision: HEAD
     directory:
